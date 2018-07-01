@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "module": "commonjs",
+    "allowJs": true,
+    "jsx": "react",
+    "strict": true,
+    "typeRoots" : [
+      "./src/types",
+      "./node_modules/@types"
+    ]
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": false
+  }
+}
